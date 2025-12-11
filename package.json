@@ -1,12 +1,12 @@
 {
-  "name": " PROGRAMER ISHAN MD",
+  "name": " PROGRAMER DUMIYH MD",
   "version": "1.0.0",
-  "description": "A WHATSAPP BOT CREATED BY PROGRAMER ISHAN MD </>",
+  "description": "A WHATSAPP BOT CREATED BY PROGRAMER DUMIYH ID </>",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach -- PROGRAMER ISHAN MD",
-    "stop": "pm2 stop  PROGRAMER ISHAN MD",
-    "restart": "pm2 restart  PROGRAMER ISHAN MD"
+    "start": "pm2 start index.js --deep-monitoring --attach -- PROGRAMER DUMIYH MD",
+    "stop": "pm2 stop  PROGRAMER DUMIYH MD",
+    "restart": "pm2 restart  PROGRAMER DUMIYH MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",

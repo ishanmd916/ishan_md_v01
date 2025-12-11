@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94768562916']
+const ownerNumber = ['94769490765']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting ISHAN MD 🧬...");
+console.log("Connecting DUMIYH MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `ISHAN MD successfully connected ✅
+let up = `DUMIYH MD successfully connected ✅
 
 ▫️️ *PREFIX* :${prefix}`;
 
@@ -148,7 +148,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 //Owner react==================
-    if (senderNumber.includes("94768562916")) {
+    if (senderNumber.includes("94769490765")) {
       if (isReact) return;
       m.react("🧚‍♂️");
     }
